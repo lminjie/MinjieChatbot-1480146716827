@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MinjieChatbot
+  host: MinjieChatbot
+  disk_quota: 1024M
+  services:
+  - Conversation-gt
+  - Speech to Text-oy
+  - Text to Speech-3c
