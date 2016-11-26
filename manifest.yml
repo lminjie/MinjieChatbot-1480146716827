@@ -10,3 +10,6 @@ applications:
   - Conversation-gt
   - Speech to Text-oy
   - Text to Speech-3c
+  env:
+     CONVERSATION_WORKSPACE_ID: f7b6d2d2-cc85-48ac-be40-b97e07e48179
+     CAR_SERVICE_HOST: MinjieChatbot.mybluemix.net
